@@ -4,6 +4,9 @@ Package basicauth is a helper of HTTP basic auth.
 
 [![Build Status](https://travis-ci.org/northbright/basicauth.svg?branch=master)](https://travis-ci.org/northbright/basicauth)
 
+#### Go Version Requirement
+* GO1.4 and later
+
 #### Example
 
 See [./example](./example):  
