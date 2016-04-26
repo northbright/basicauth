@@ -2,6 +2,8 @@
 
 Package basicauth is a helper of HTTP basic auth.
 
+[![Build Status](https://travis-ci.org/northbright/basicauth.svg?branch=master)](https://travis-ci.org/northbright/basicauth)
+
 #### Example
 
 See [./example](./example):  
