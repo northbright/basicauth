@@ -1,6 +1,6 @@
 # basicauth
 
-Package basicauth is a helper of HTTP basic auth.
+basicauth is [Golang](http://golang.org) package which provides helper functions of HTTP basic auth.
 
 [![Build Status](https://travis-ci.org/northbright/basicauth.svg?branch=master)](https://travis-ci.org/northbright/basicauth)
 
