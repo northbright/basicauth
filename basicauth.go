@@ -27,19 +27,19 @@ type BasicAuth struct {
 	Args     Arguments // Arguments to customize Basic Auth UI(Ex: "Basic realm" string).
 }
 
-// New() creates a new BasicAuth with default arguments.
+// New creates a new BasicAuth with default arguments.
 func New(username, password string) (ba *BasicAuth) {
 	return &BasicAuth{username, password, Arguments{DefBasicRealmStr}}
 }
 
-// NewWithArgs() creates a new BasicAuth with user's arguments(Ex: "Basic realm" string).
+// NewWithArgs creates a new BasicAuth with user's arguments(Ex: "Basic realm" string).
 //
 // See Arguments for more.
 func NewWithArgs(username, password string, args Arguments) (ba *BasicAuth) {
 	return &BasicAuth{username, password, args}
 }
 
-// IsOK() checks HTTP Basic Auth.
+// IsOK checks HTTP Basic Auth.
 func (ba *BasicAuth) IsOK(w http.ResponseWriter, r *http.Request) bool {
 	username, password, ok := r.BasicAuth()
 	if !ok {
