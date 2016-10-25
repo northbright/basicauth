@@ -12,7 +12,7 @@ var (
 )
 
 const (
-	DefBasicRealmStr = "Please input username and password" // Default "Basic realm"
+	defBasicRealmStr = "Please input username and password" // Default "Basic realm"
 )
 
 // Arguments is used to customize Basic Auth UI(Ex: "Basic realm" string
@@ -29,7 +29,7 @@ type BasicAuth struct {
 
 // New creates a new BasicAuth with default arguments.
 func New(username, password string) (ba *BasicAuth) {
-	return &BasicAuth{username, password, Arguments{DefBasicRealmStr}}
+	return &BasicAuth{username, password, Arguments{defBasicRealmStr}}
 }
 
 // NewWithArgs creates a new BasicAuth with user's arguments(Ex: "Basic realm" string).
