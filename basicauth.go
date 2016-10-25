@@ -6,7 +6,9 @@ import (
 )
 
 var (
-	DEBUG bool = false // Set to true to enable debug messages.
+	// DEBUG is debug mode.
+	// Set to true to enable debug messages.
+	DEBUG bool = false
 )
 
 const (
