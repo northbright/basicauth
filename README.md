@@ -1,6 +1,7 @@
 # basicauth
 
 [![Build Status](https://travis-ci.org/northbright/basicauth.svg?branch=master)](https://travis-ci.org/northbright/basicauth)
+[![Go Report Card](https://goreportcard.com/badge/github.com/northbright/basicauth)](https://goreportcard.com/report/github.com/northbright/basicauth)
 
 basicauth is [Golang](http://golang.org) package which provides helper functions of HTTP basic auth.
 
