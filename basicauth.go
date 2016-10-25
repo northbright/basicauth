@@ -8,7 +8,7 @@ import (
 var (
 	// DEBUG is debug mode.
 	// Set to true to enable debug messages.
-	DEBUG bool = false
+	DEBUG = false
 )
 
 const (
